@@ -69,6 +69,7 @@ header {
 
 h1 {
   font-size: 36px;
+  font-weight: 400;
 }
 .menu {
   font-size: 24px;
@@ -129,7 +130,7 @@ h1 {
 
 button {
   height: 60px;
-  width: 320px;
+  width: calc(100% - 80px);   /*100% minus a card padding, card padding = 40, 2 oldal 80px*/
   position: absolute;
   bottom: -30px;
   background-color: #242d38;
